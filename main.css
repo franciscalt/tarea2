@@ -54,7 +54,12 @@ html {
   border: 1px;
   text-align: center;
   background: black;
+  margin-top: 10px;
 
+}
+
+.w{
+  float:center;
 }
 
 
