@@ -1,0 +1,71 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.imagen {
+  margin-top: 10px;
+  display: center;
+  max-width: 100%;
+  height: auto;
+}
+
+.foto {
+  width: 150px;
+  height: 150px;
+}
+
+
+.box {
+  width: 150px;
+  height: 150px;
+  background: white;
+  display: inline-block;
+  border: solid grey 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: grey;
+  text-align: center;
+}
+
+.parrafo{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20 px;
+  color: black;
+  text-align: justify;
+  display: inline-block;
+
+}
+
+.titulo {
+  background:blue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16 px;
+  color: floralwhite;
+  text-align: center;
+
+}
+
+
+.footer {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16 px;
+  color: white;
+  border: 1px;
+  text-align: center;
+  background: black;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+ third {
+ background-color: lightgrey;
+ float: right;
+ }
+
+@media only screen and (max-width: 768px) {
+ /* For mobile phones: */
+ [class="col-"] {
+ width: 50%;
+ }
