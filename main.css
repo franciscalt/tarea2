@@ -22,14 +22,14 @@ html {
   background: white;
   display: inline-block;
   border: solid grey 2px;
-  font-family: Arial, Helvetica, sans-serif;
+ font-family: 'Macondo', cursive;
   font-size: 12px;
   color: grey;
   text-align: center;
 }
 
 .parrafo{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Macondo', cursive;
   font-size: 20 px;
   color: black;
   text-align: justify;
@@ -39,16 +39,35 @@ html {
 
 .titulo {
   background:blue;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16 px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20 px;
   color: floralwhite;
   text-align: center;
 
 }
 
 
+
+.subti {
+  font-size:1.5rem
+  font-family: 'Macondo', cursive;
+}
+
+.su { 
+
+  font-size:0.7em
+}
+
+
+.body {
+  font-size: 16 px;
+}
+
+
+
+
 .footer {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Macondo', cursive;
   font-size: 16 px;
   color: white;
   border: 1px;
@@ -58,9 +77,9 @@ html {
 
 }
 
-.w{
+/*.w{
   float:center;
-}
+}*/
 
 
 @media only screen and (max-width: 768px) {
